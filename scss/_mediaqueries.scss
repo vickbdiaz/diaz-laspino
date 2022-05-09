@@ -1,0 +1,383 @@
+/*Media query 768*/
+@media screen and (min-width:768px){
+
+    /* Media queries index */
+
+    .logo{
+
+        img{
+        width: 400px;
+        }
+    }
+        .main-title{
+            font-size: 1.1rem;
+        }
+        .sobre-laspino{
+            font-size: 0.9rem;;
+            text-align: start;
+            padding: 20px;
+
+            .sobre-laspino-uno{
+                padding-bottom: 10px;
+            }
+        }
+        
+        .container-productos{
+            display: flex;
+            justify-content: space-around;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            margin-left: 0;
+            padding: 10;
+
+            img{
+                padding: 10px;
+                width: 90%;
+            }
+            .productos-uno{
+                text-align: center;
+            }
+            .productos-dos{
+                text-align: center;
+            }
+    }
+
+    .suscripcion{
+
+            p{
+            font-size: 0.9rem;
+        }
+        input{
+            text-align: center;
+            width: 150px;
+            height: auto;
+            font-size: 0.9rem
+        }
+        .boton-suscribirme{
+            background-color: #e5c2c1;
+            font-size: 0.8rem;
+            }
+    }
+
+        footer{
+            font-size: 0.9rem;
+
+            .icons-footer {
+
+                img{
+                width: 50px;
+                }
+            }
+        }
+        
+    /*Media queries nosotros*/
+
+        .sobre-nosotros{
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 10px;
+                p{
+                font-size: 0.9rem;
+                padding: 10px;
+            }
+        }
+        h2{
+            color: $color-fonts;
+            font-family: "Spectral SC", Georgia,$font-p;
+            font-weight:800 ;
+            font-size: 1rem;
+            padding: 20px;
+            text-align: center;
+        }
+        .eleginos{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+                .eleginos-razon-uno{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    width: 50%;
+                        p{
+                            padding: 10px;
+                            text-align: start;
+                            font-size: 1rem;
+                        }
+                }
+
+                .eleginos-razon-dos{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0;
+                    width: 50%;
+                        p{
+                            padding: 10px;
+                        font-size: 1rem;
+                        }
+                }
+        }
+
+    /* Media queries Productos */
+    h3{
+        padding: 10px ;
+        margin: 10px 0;
+        background-color: #e5c2c1;
+        color: $color-primary;
+        font-size: 1rem;
+        font-weight: 800;
+        font-family: $font-title;
+    }
+
+    .main-products {
+        p{
+        padding: 10px;
+        color: $color-fonts;
+        font-family:$font-p;
+        font-weight: 400;
+        font-size: 1rem;
+        margin-bottom: 0;
+        }
+    }
+}
+
+@media screen and (min-width:1024px){
+    .logo {
+        img{
+            width: 400px;
+        }
+    }
+        .sobre-laspino{
+            font-size: 1.2rem;;
+            text-align: start;
+            padding: 20px;
+            margin-top:50px;
+        }
+        .banner{
+            text-align: center;
+            width: 100%;
+            height: 400px;
+            background-image: url(../imagenes/head.jpg);
+            background-size: 150%;
+            animation: mov 15s infinite linear alternate;
+            background-repeat: no-repeat;
+
+        }
+        @keyframes mov {
+            0%{
+                background-position: bottom right;
+            }
+            100%{
+                background-position: top left;
+            }
+        }
+
+        .sobre-laspino-uno{
+            padding-bottom: 10px;
+        }
+        
+        .main-title{
+            font-size: 1.4rem;
+            margin: 10px;
+        }
+        .container-productos{
+
+            img{
+                padding: 10px;
+                width: 95%;
+            }
+            p{
+                font-size: 1.2rem;
+            }
+        }
+        
+        .suscripcion {
+            p{
+                font-family:$font-p;
+                font-size: 1.2rem;
+                }
+            input{
+                border: solid 1px $color-primary;
+                color: #85675c;
+                font-size: 1.1rem;
+            }
+            .boton-suscribirme{
+            background-color: #e5c2c1;
+            font-size: 1.1rem;
+            }
+        }
+
+        footer{
+            font-size: 1rem;
+        }
+        .contenedor-footer{
+            display: flex;
+            justify-content: space-around;
+        }
+        .icons-footer{
+            img{
+            width: 60px;
+        }
+    }
+        .pie-pagina {
+            a{
+                font-size: 1rem;
+            }
+        }
+
+    /* Media queries Nosotros */
+
+    .sobre-nosotros{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 10px;
+        justify-content: flex-start;
+        justify-items: center;
+
+        .sobre-nosotros-texto{
+        text-align: left;
+        width: 50%;
+
+            p{
+                font-size: 1.1rem;
+            }
+            .sobre-nosotros-video{
+                width: 50%;
+
+            }
+        }
+    }
+    
+    h2{
+        color: $color-fonts;
+        font-family: $font-title;
+        font-weight:800 ;
+        font-size: 1.2rem;
+        padding: 20px;
+        text-align: center;
+    }
+    .eleginos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+
+            .eleginos-razon-uno{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+
+                .eleginos-razon-uno p{
+                    padding: 10px;
+                    text-align: start;
+                    color: $color-fonts;
+                    font-family: $font-title;
+                    font-weight:700 ;
+                    font-size: 1rem;
+                }
+            }
+        
+            .eleginos-razon-dos{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin: 0;
+                width: 50%;
+
+                p{
+                    padding: 10px;
+                    text-align: start;
+                    color: $color-fonts;
+                    font-family: $font-title;
+                    font-weight:700 ;
+                    font-size: 1rem;
+                }
+        }
+    }
+
+    .suscripcion {
+        p{
+            font-size: 1rem;
+        }
+        input{
+            text-align: center;
+            width: 200px;
+            height: auto;
+            font-size: 1rem
+        }
+    }
+}
+
+/* Media queries Contacto */
+.comentario {
+    p{
+        font-size: 1.2rem;
+        font-family:$font-p;
+        color: $color-fonts;
+        font-weight: 700;
+        padding: 20px;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (min-width:1440px){
+    .main-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 1440px;
+
+            .logo img{
+        width: 90%;
+    }
+    .sobre-laspino{
+        font-size: 1.2rem;
+        .sobre-laspino-uno{
+            padding-bottom: 15px;
+        }
+    }
+    
+    .main-title{
+        font-size: 1.5rem;
+        font-family: 'Spectral SC';
+    }
+    .container-productos{
+        display: flex;
+        justify-content: center;
+            p{
+                font-size: 1.2rem;
+            }
+            img{
+                padding: 30px;
+                width: 90%;
+            }
+        }
+
+    .suscripcion {
+        p{
+            font-size: 1.2rem;
+            }
+        input{
+            text-align: center;
+            width: 300px;
+            height: auto;
+            font-size: 1rem
+        }
+    }
+    
+    footer {
+            font-size: 1.2rem;
+        }
+    .lista-info li{
+        font-size: 1.2rem;
+        }
+    }
+
+    }   

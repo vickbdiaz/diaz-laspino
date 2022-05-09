@@ -1,0 +1,24 @@
+nav {
+    grid-area: "nav";
+    color: $color-secondary;
+}
+    .navbar-light{
+            background-color:$color-secondary !important;
+        }
+        .nav-link{
+        color: $color-primary !important;
+        font-family: 'Spectral SC';
+        font-weight: 800;
+        text-align: center;
+        }
+    
+        .container-fluid {
+            button{
+                color: $color-primary !important;
+            }
+        }
+    
+
+#navbarNav{
+    justify-content: center;
+}

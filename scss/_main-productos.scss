@@ -1,0 +1,24 @@
+.main-products{
+
+    img{
+        width: 100%;
+    }
+
+    h3{
+        padding: 10px ;
+        margin: 10px 0;
+        background-color: #e5c2c1;
+        color: $color-primary;
+        font-size: 1rem;
+        font-weight: 800;
+        font-family: $font-title;
+    }
+    p{
+        padding: 10px;
+        color: $color-fonts;
+        font-family: $font-p;
+        font-weight: 400;
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+}

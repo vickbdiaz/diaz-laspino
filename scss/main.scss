@@ -1,0 +1,43 @@
+/*Estilos generales*/
+*{
+    margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+li{
+    text-decoration: none; 
+}
+
+body{
+    background-color: #f7f0f0;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.main-wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "main"
+    "footer";
+    margin: auto;
+}
+
+/*Imports*/
+@import "variables";
+@import "header";
+@import "nav";
+@import "footer";
+@import "main-index";
+@import "main-nosotros";
+@import "main-productos";
+@import "main-contacto";
+@import "main-ayuda";
+@import "mediaqueries"

@@ -1,0 +1,172 @@
+main{
+    grid-area:"main";
+    margin: 0;
+    text-align: center;
+}
+.banner{
+
+    background-image: url(../imagenes/head.jpg);
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    padding: 0;
+    position: relative;
+    background-size: 200%;
+    animation: mov 12s infinite linear alternate;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    
+    @keyframes mov {
+        0%{
+            background-position: bottom left;
+        }
+        100%{
+            background-position: top right;
+        }
+    }
+
+        .button{
+            text-align: left;
+        }
+
+        .capa-gradient{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background: rgb(249,242,242);
+            background: -moz-linear-gradient(68deg, rgba(249,242,242,1) 0%, rgba(229,194,193,1) 55%, rgba(203,164,164,1) 84%, rgba(163,126,112,1) 100%);
+            background: -webkit-linear-gradient(68deg, rgba(249,242,242,1) 0%, rgba(229,194,193,1) 55%, rgba(203,164,164,1) 84%, rgba(163,126,112,1) 100%);
+            background: linear-gradient(68deg, rgba(249,242,242,1) 0%, rgba(229,194,193,1) 55%, rgba(203,164,164,1) 84%, rgba(163,126,112,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f9f2f2",endColorstr="$color-fonts",GradientType=1);
+            opacity: 0.6;
+        }
+        .banner-details{
+            width: 100%;
+            max-width: 1440px;
+            position: relative;
+            margin: auto;
+
+                .details{
+                    width: 100%;
+                    max-width: 400px;
+                    color:$color-fonts;
+                    -webkit-text-stroke: 1px $color-fonts;
+                    padding:20px0;
+
+                        .banner-title{
+                            font-size: 1.3rem;
+                            font-family: 'Spectral SC';
+                            font-weight: 800;
+                            -webkit-text-stroke: 1px #a07565;
+                        }
+
+                        .banner-text{
+                            font-family: 'Times New Roman', Times, serif;
+                            font-weight: 500;
+                            font-size: 1.1rem;
+                            padding-bottom: 5px;
+                        }
+                        .btn{
+                            color: $color-fonts;
+                            border: $color-fonts;
+                        }
+                }
+        }
+}
+
+/*Estilos seccion 1*/
+
+.sobre-laspino{
+    background-color: #dfc9c8;
+    color: $color-fonts;
+    font-family: $font-title;
+    font-weight:500 ;
+    font-size: 0.8rem;;
+    text-align: start;
+    padding: 20px;
+    margin-top:30px;
+
+        .sobre-laspino-uno{
+            padding-bottom: 10px;
+        }
+
+}
+
+/*Estilos seccion 2*/
+
+.main-title{
+    color: $color-fonts;
+    font-family: $font-title;
+    font-weight:800 ;
+    font-size: 1.2rem;
+    padding: 20px;
+    text-align: center;
+}
+
+.container-productos{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+        img{
+            width:  100%;
+        }
+        .productos-uno{
+            display: flex;
+            flex-direction: column;
+        }
+        .container-productos-text{
+            padding: 15px;
+
+                a{
+                    color: $color-fonts;
+                    font-family: $font-title;
+                    font-weight:500 ;
+                    font-size: 1rem;
+                    padding: 10px;
+                    text-align: center;
+                    text-decoration: none;
+                    position: relative;
+                    transition: all 300ms ease-in-out;
+                    
+                &:hover {
+                    color: $color-primary;
+                    background-color: $color-secondary;
+                    opacity: 0.8;
+                }
+            }
+        }
+    
+}
+
+/*Estilos seccion 3*/
+
+.suscripcion{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    color: $color-fonts;
+    font-family: 'Times New Roman', Times, serif;
+    border: solid; border-color:#dfc9c8; border-style: dotted;
+    font-size: 0.8rem;
+
+        p{
+            font-family: $font-p;
+            font-size: 0.8rem;
+            
+        }
+
+        input{
+            border: solid 1px $color-primary;
+            color: #85675c;
+            font-size: 0.8rem;
+        }
+        .boton-suscribirme{
+            background-color: #e5c2c1;
+            font-size: 0.8rem;
+        }
+}
+

@@ -1,0 +1,76 @@
+/*Estilos seccion 1*/
+.sobre-nosotros{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    justify-content: flex-start;
+
+    .sobre-nosotros-texto {
+            p{
+                font-family: "Spectral SC", 'Times New Roman', Times, serif;
+                font-size: 0.7rem;
+                color: $color-fonts;
+                font-weight: 700;
+                font-style: oblique;
+                padding: 10px;
+            }
+    }
+
+    iframe{
+        padding: 20px;
+    }
+
+}
+
+h2{
+    color: $color-fonts;
+    font-family: $font-title;
+    font-weight:800 ;
+    font-size: 1rem;
+    padding: 10px;
+    text-align: center;
+}
+/*Estilos seccion 2*/
+
+.eleginos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+        .eleginos-razon-uno{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+            p{
+                padding: 10px;
+                text-align: start;
+                color: $color-fonts;
+                font-family: $font-title;
+                font-weight:700 ;
+                font-size: 0.8rem;
+            }
+    }
+    .eleginos-razon-dos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+            p{
+                padding: 10px;
+                text-align: start;
+                color: $color-fonts;
+                font-family: $font-title;
+                font-weight:700 ;
+                font-size: 0.8rem;
+            }
+    }
+}
+.carrousel-img{
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
