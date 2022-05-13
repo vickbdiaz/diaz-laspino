@@ -1,4 +1,3 @@
-/*Estilos generales*/
 * {
   margin: 0;
   padding: 0;
@@ -23,7 +22,6 @@ body {
   grid-template-areas: "header" "nav" "main" "footer";
   margin: auto; }
 
-/*Imports*/
 /*Colores*/
 /*Fuentes*/
 header {
@@ -52,7 +50,7 @@ nav {
 
 .nav-link {
   color: #f7f0f0 !important;
-  font-family: 'Spectral SC';
+  font-family: "Spectral SC";
   font-weight: 800;
   text-align: center; }
 
@@ -142,10 +140,10 @@ main {
     width: 100%;
     height: 100%;
     position: absolute;
-    background: #f9f2f2;
-    background: -moz-linear-gradient(68deg, #f9f2f2 0%, #e5c2c1 55%, #cba4a4 84%, #a37e70 100%);
-    background: -webkit-linear-gradient(68deg, #f9f2f2 0%, #e5c2c1 55%, #cba4a4 84%, #a37e70 100%);
-    background: linear-gradient(68deg, #f9f2f2 0%, #e5c2c1 55%, #cba4a4 84%, #a37e70 100%);
+    background: #f7f0f0;
+    background: -moz-linear-gradient(68deg, #f7f0f0 0%, #e5c2c1 55%, #cba4a4 84%, #a37e70 100%);
+    background: -webkit-linear-gradient(68deg, #f7f0f0 0%, #e5c2c1 55%, #cba4a4 84%, #a37e70 100%);
+    background: linear-gradient(68deg, #f7f0f0 0%, #e5c2c1 55%, #cba4a4 84%, #a37e70 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f9f2f2",endColorstr="$color-fonts",GradientType=1);
     opacity: 0.6; }
   .banner .banner-details {
@@ -161,11 +159,11 @@ main {
       padding: 20px0; }
       .banner .banner-details .details .banner-title {
         font-size: 1.3rem;
-        font-family: 'Spectral SC';
+        font-family: "Spectral SC";
         font-weight: 800;
-        -webkit-text-stroke: 1px #a07565; }
+        -webkit-text-stroke: 1px #a37e70; }
       .banner .banner-details .details .banner-text {
-        font-family: 'Times New Roman', Times, serif;
+        font-family: "Times New Roman";
         font-weight: 500;
         font-size: 1.1rem;
         padding-bottom: 5px; }
@@ -173,7 +171,6 @@ main {
         color: #a37e70;
         border: #a37e70; }
 
-/*Estilos seccion 1*/
 .sobre-laspino {
   background-color: #dfc9c8;
   color: #a37e70;
@@ -186,7 +183,6 @@ main {
   .sobre-laspino .sobre-laspino-uno {
     padding-bottom: 10px; }
 
-/*Estilos seccion 2*/
 .main-title {
   color: #a37e70;
   font-family: "Spectral SC";
@@ -222,13 +218,12 @@ main {
         background-color: #cba4a4;
         opacity: 0.8; }
 
-/*Estilos seccion 3*/
 .suscripcion {
   text-align: center;
   margin: 20px;
   padding: 10px;
   color: #a37e70;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman";
   border: solid;
   border-color: #dfc9c8;
   border-style: dotted;
@@ -238,13 +233,12 @@ main {
     font-size: 0.8rem; }
   .suscripcion input {
     border: solid 1px #f7f0f0;
-    color: #85675c;
+    color: #a37e70;
     font-size: 0.8rem; }
   .suscripcion .boton-suscribirme {
     background-color: #e5c2c1;
     font-size: 0.8rem; }
 
-/*Estilos seccion 1*/
 .sobre-nosotros {
   display: flex;
   flex-direction: column;
@@ -268,7 +262,6 @@ h2 {
   padding: 10px;
   text-align: center; }
 
-/*Estilos seccion 2*/
 .eleginos {
   display: flex;
   flex-direction: column;
@@ -336,7 +329,7 @@ h2 {
     font-family: "Spectral SC"; }
   .contenedor-contacto label {
     font-size: 0.9rem;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman";
     color: #f7f0f0;
     background-color: #cba4a4;
     font-weight: 700;
@@ -345,7 +338,7 @@ h2 {
   .contenedor-contacto input {
     margin: 10px;
     font-size: 0.9rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Times New Roman";
     border: solid 2px #cba4a4;
     width: 200px; }
   .contenedor-contacto .form-check .form-check-input {
@@ -355,13 +348,12 @@ h2 {
     background-color: #cba4a4; }
     .contenedor-contacto .contenedor-contactanos .contactanos-text p {
       font-size: 0.9rem;
-      font-family: 'Times New Roman', Times, serif;
+      font-family: "Times New Roman";
       color: #f7f0f0;
       font-weight: 700; }
     .contenedor-contacto .contenedor-contactanos .contactanos-text iframe {
       width: 100%; }
 
-/*Estilos seccion 1*/
 .preguntas {
   text-align: left; }
   .preguntas span {
@@ -379,7 +371,6 @@ h2 {
     font-weight: 500;
     padding: 20px; }
 
-/*Estilos seccion 2*/
 .cards-ayuda .card {
   align-items: center; }
   .cards-ayuda .card .card-text {
@@ -398,7 +389,6 @@ h2 {
     width: 80px;
     text-align: center; }
 
-/*Media query 768*/
 @media screen and (min-width: 768px) {
   /* Media queries index */
   .logo img {
@@ -440,7 +430,6 @@ h2 {
     font-size: 0.9rem; }
     footer .icons-footer img {
       width: 50px; }
-  /*Media queries nosotros*/
   .sobre-nosotros {
     display: flex;
     flex-direction: column;
@@ -450,7 +439,7 @@ h2 {
       padding: 10px; }
   h2 {
     color: #a37e70;
-    font-family: "Spectral SC", Georgia, "Times New Roman";
+    font-family: "Spectral SC";
     font-weight: 800;
     font-size: 1rem;
     padding: 20px;
@@ -479,7 +468,6 @@ h2 {
       .eleginos .eleginos-razon-dos p {
         padding: 10px;
         font-size: 1rem; }
-  /* Media queries Productos */
   h3 {
     padding: 10px;
     margin: 10px 0;
@@ -532,7 +520,7 @@ h2 {
     font-size: 1.2rem; }
   .suscripcion input {
     border: solid 1px #f7f0f0;
-    color: #85675c;
+    color: #a37e70;
     font-size: 1.1rem; }
   .suscripcion .boton-suscribirme {
     background-color: #e5c2c1;
@@ -546,7 +534,6 @@ h2 {
     width: 60px; }
   .pie-pagina a {
     font-size: 1rem; }
-  /* Media queries Nosotros */
   .sobre-nosotros {
     display: flex;
     flex-direction: row;
@@ -607,7 +594,6 @@ h2 {
     height: auto;
     font-size: 1rem; } }
 
-/* Media queries Contacto */
 .comentario p {
   font-size: 1.2rem;
   font-family: "Times New Roman";
@@ -630,7 +616,7 @@ h2 {
         padding-bottom: 15px; }
     .main-wrapper .main-title {
       font-size: 1.5rem;
-      font-family: 'Spectral SC'; }
+      font-family: "Spectral SC"; }
     .main-wrapper .container-productos {
       display: flex;
       justify-content: center; }

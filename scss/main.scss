@@ -1,4 +1,4 @@
-/*Estilos generales*/
+//Estilos generales
 *{
     margin: 0;
 	padding: 0;
@@ -30,7 +30,7 @@ body{
     margin: auto;
 }
 
-/*Imports*/
+//Imports
 @import "variables";
 @import "header";
 @import "nav";
@@ -41,3 +41,5 @@ body{
 @import "main-contacto";
 @import "main-ayuda";
 @import "mediaqueries"
+
+//Maps

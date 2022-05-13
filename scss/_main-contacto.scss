@@ -12,7 +12,7 @@
     }
         label{
         font-size: 0.9rem;
-        font-family: 'Times New Roman', Times, serif;
+        font-family: $font-p;
         color:$color-primary;
         background-color: $color-secondary;
         font-weight: 700;
@@ -23,7 +23,7 @@
     input{
         margin: 10px;
         font-size: 0.9rem;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: $font-p;
         border:solid 2px $color-secondary;
         width: 200px;
     }
@@ -38,8 +38,8 @@
             background-color: $color-secondary;
                 p{
                     font-size: 0.9rem;
-                    font-family: 'Times New Roman', Times, serif;
-                    color:#f7f0f0;
+                    font-family: $font-p;
+                    color:$color-primary;
 
                     font-weight: 700;
                 }

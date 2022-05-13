@@ -1,4 +1,4 @@
-/*Media query 768*/
+//Media query 768
 @media screen and (min-width:768px){
 
     /* Media queries index */
@@ -55,7 +55,7 @@
             font-size: 0.9rem
         }
         .boton-suscribirme{
-            background-color: #e5c2c1;
+            background-color: $color-tertiary;
             font-size: 0.8rem;
             }
     }
@@ -71,7 +71,7 @@
             }
         }
         
-    /*Media queries nosotros*/
+//Media queries nosotros
 
         .sobre-nosotros{
             display: flex;
@@ -84,7 +84,7 @@
         }
         h2{
             color: $color-fonts;
-            font-family: "Spectral SC", Georgia,$font-p;
+            font-family: $font-title;
             font-weight:800 ;
             font-size: 1rem;
             padding: 20px;
@@ -122,11 +122,11 @@
                 }
         }
 
-    /* Media queries Productos */
+//Media queries Productos 
     h3{
         padding: 10px ;
         margin: 10px 0;
-        background-color: #e5c2c1;
+        background-color: $color-tertiary;
         color: $color-primary;
         font-size: 1rem;
         font-weight: 800;
@@ -202,11 +202,11 @@
                 }
             input{
                 border: solid 1px $color-primary;
-                color: #85675c;
+                color: $color-fonts;
                 font-size: 1.1rem;
             }
             .boton-suscribirme{
-            background-color: #e5c2c1;
+            background-color: $color-tertiary;
             font-size: 1.1rem;
             }
         }
@@ -229,7 +229,7 @@
             }
         }
 
-    /* Media queries Nosotros */
+// Media queries Nosotros
 
     .sobre-nosotros{
         display: flex;
@@ -273,14 +273,16 @@
             align-items: center;
             width: 50%;
 
-                .eleginos-razon-uno p{
-                    padding: 10px;
-                    text-align: start;
-                    color: $color-fonts;
-                    font-family: $font-title;
-                    font-weight:700 ;
-                    font-size: 1rem;
-                }
+                .eleginos-razon-uno{
+                    p{
+                        padding: 10px;
+                        text-align: start;
+                        color: $color-fonts;
+                        font-family: $font-title;
+                        font-weight:700 ;
+                        font-size: 1rem;
+                    }
+                }    
             }
         
             .eleginos-razon-dos{
@@ -315,7 +317,7 @@
     }
 }
 
-/* Media queries Contacto */
+//Media queries Contacto 
 .comentario {
     p{
         font-size: 1.2rem;
@@ -346,7 +348,7 @@
     
     .main-title{
         font-size: 1.5rem;
-        font-family: 'Spectral SC';
+        font-family: $font-title;
     }
     .container-productos{
         display: flex;
