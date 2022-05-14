@@ -1,3 +1,16 @@
+//Imports
+@import "variables";
+@import "header";
+@import "nav";
+@import "footer";
+@import "main-index";
+@import "main-nosotros";
+@import "main-productos";
+@import "main-contacto";
+@import "main-ayuda";
+@import "mediaqueries";
+
+
 //Estilos generales
 *{
     margin: 0;
@@ -21,6 +34,7 @@ body{
 
 .main-wrapper{
     display: grid;
+    
     grid-template-columns: 1fr;
     grid-template-areas: 
     "header"
@@ -30,16 +44,18 @@ body{
     margin: auto;
 }
 
-//Imports
-@import "variables";
-@import "header";
-@import "nav";
-@import "footer";
-@import "main-index";
-@import "main-nosotros";
-@import "main-productos";
-@import "main-contacto";
-@import "main-ayuda";
-@import "mediaqueries"
+//Map
+$headings: (
+    h1:1.2rem,
+    h2: 1.1rem,
+    h3: 1rem,
+    h4:0.9rem
+);
 
-//Maps
+@each $heading, $size in $headings {
+    .heading-#{$heading} {
+        font-size: $size;
+    }
+}
+
+

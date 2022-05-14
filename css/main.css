@@ -1,31 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-  border: none;
-  outline: none; }
-
-li {
-  text-decoration: none; }
-
-body {
-  background-color: #f7f0f0;
-  width: auto;
-  height: auto;
-  margin: 0;
-  padding: 0; }
-
-.main-wrapper {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-areas: "header" "nav" "main" "footer";
-  margin: auto; }
-
 /*Colores*/
 /*Fuentes*/
 header {
-  grid-area: "header";
+  grid-area: header;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,7 +18,7 @@ header {
     transform: scale(0.8); }
 
 nav {
-  grid-area: "nav";
+  grid-area: nav;
   color: #cba4a4; }
 
 .navbar-light {
@@ -61,7 +37,7 @@ nav {
   justify-content: center; }
 
 footer {
-  grid-area: "footer";
+  grid-area: footer;
   background-color: #a37e70;
   font-size: 0.9rem;
   margin: 0;
@@ -110,7 +86,7 @@ footer {
       font-size: 0.8rem; }
 
 main {
-  grid-area: "main";
+  grid-area: main;
   margin: 0;
   text-align: center; }
 
@@ -243,22 +219,23 @@ main {
   display: flex;
   flex-direction: column;
   padding-bottom: 10px;
-  justify-content: flex-start; }
+  justify-content: flex-start;
+  margin: 20px; }
   .sobre-nosotros .sobre-nosotros-texto p {
-    font-family: "Spectral SC", 'Times New Roman', Times, serif;
+    font-family: "Spectral SC";
     font-size: 0.7rem;
     color: #a37e70;
     font-weight: 700;
     font-style: oblique;
     padding: 10px; }
   .sobre-nosotros iframe {
-    padding: 20px; }
+    width: 100%; }
 
 h2 {
   color: #a37e70;
   font-family: "Spectral SC";
   font-weight: 800;
-  font-size: 1rem;
+  font-size: 1.1rem;
   padding: 10px;
   text-align: center; }
 
@@ -547,6 +524,8 @@ h2 {
         font-size: 1.1rem; }
       .sobre-nosotros .sobre-nosotros-texto .sobre-nosotros-video {
         width: 50%; }
+        .sobre-nosotros .sobre-nosotros-texto .sobre-nosotros-video iframe {
+          width: 100%; }
   h2 {
     color: #a37e70;
     font-family: "Spectral SC";
@@ -624,7 +603,7 @@ h2 {
         font-size: 1.2rem; }
       .main-wrapper .container-productos img {
         padding: 30px;
-        width: 90%; }
+        width: 95%; }
     .main-wrapper .suscripcion p {
       font-size: 1.2rem; }
     .main-wrapper .suscripcion input {
@@ -636,3 +615,39 @@ h2 {
       font-size: 1.2rem; }
     .main-wrapper .lista-info li {
       font-size: 1.2rem; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none; }
+
+li {
+  text-decoration: none; }
+
+body {
+  background-color: #f7f0f0;
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0; }
+
+.main-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: "header" "nav" "main" "footer";
+  margin: auto; }
+
+.heading-h1 {
+  font-size: 1.2rem; }
+
+.heading-h2 {
+  font-size: 1.1rem; }
+
+.heading-h3 {
+  font-size: 1rem; }
+
+.heading-h4 {
+  font-size: 0.9rem; }
