@@ -1,12 +1,18 @@
 //Estilos seccion 1
+
+
 .sobre-nosotros{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "texto"
+    "video";
     padding-bottom: 10px;
     justify-content: flex-start;
     margin: 20px;
 
     .sobre-nosotros-texto {
+        grid-area: texto;
             p{
                 font-family: $font-title;
                 font-size: 0.7rem;
@@ -16,11 +22,12 @@
                 padding: 10px;
             }
     }
-
-    iframe{
+    .sobre-nosotros-video{
+        grid-area: video;
+        iframe{
         width: 100%;
     }
-
+    }
 }
 
 h2{

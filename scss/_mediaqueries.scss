@@ -74,8 +74,11 @@
 //Media queries nosotros
 
         .sobre-nosotros{
-            display: flex;
-            flex-direction: column;
+            display: grid;
+            grid-template-rows: 1fr;
+            grid-template-areas: 
+            "texto"
+            "video";
             padding-bottom: 10px;
                 p{
                 font-size: 0.9rem;
@@ -232,25 +235,19 @@
 // Media queries Nosotros
 
     .sobre-nosotros{
-        display: flex;
-        flex-direction: row;
-        padding-bottom: 10px;
-        justify-content: flex-start;
-        justify-items: center;
-
+        display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-areas: 
+            "texto video";
         .sobre-nosotros-texto{
         text-align: left;
-        width: 50%;
 
             p{
                 font-size: 1.1rem;
             }
             .sobre-nosotros-video{
-                width: 50%;
-                iframe{
-                    width: 100%;
-                }
-
+                grid-area: video;
+                padding: 10px;
             }
         }
     }

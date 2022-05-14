@@ -2,8 +2,8 @@
 
 @mixin size {
     width: 100%;
-    padding: 5px;
+    padding-top: 10px;
 }
-img{
+iframe{
     @include size;
 }

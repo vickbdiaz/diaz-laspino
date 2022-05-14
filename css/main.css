@@ -26,9 +26,9 @@
   display: inline;
   text-decoration: none; }
 
-img {
+iframe {
   width: 100%;
-  padding: 5px; }
+  padding-top: 10px; }
 
 header {
   grid-area: header;
@@ -246,20 +246,25 @@ main {
     font-size: 0.8rem; }
 
 .sobre-nosotros {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-areas: "texto" "video";
   padding-bottom: 10px;
   justify-content: flex-start;
   margin: 20px; }
-  .sobre-nosotros .sobre-nosotros-texto p {
-    font-family: "Spectral SC";
-    font-size: 0.7rem;
-    color: #a37e70;
-    font-weight: 700;
-    font-style: oblique;
-    padding: 10px; }
-  .sobre-nosotros iframe {
-    width: 100%; }
+  .sobre-nosotros .sobre-nosotros-texto {
+    grid-area: texto; }
+    .sobre-nosotros .sobre-nosotros-texto p {
+      font-family: "Spectral SC";
+      font-size: 0.7rem;
+      color: #a37e70;
+      font-weight: 700;
+      font-style: oblique;
+      padding: 10px; }
+  .sobre-nosotros .sobre-nosotros-video {
+    grid-area: video; }
+    .sobre-nosotros .sobre-nosotros-video iframe {
+      width: 100%; }
 
 h2 {
   color: #a37e70;
@@ -438,8 +443,9 @@ h2 {
     footer .icons-footer img {
       width: 50px; }
   .sobre-nosotros {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-areas: "texto" "video";
     padding-bottom: 10px; }
     .sobre-nosotros p {
       font-size: 0.9rem;
@@ -542,20 +548,16 @@ h2 {
   .pie-pagina a {
     font-size: 1rem; }
   .sobre-nosotros {
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 10px;
-    justify-content: flex-start;
-    justify-items: center; }
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "texto video"; }
     .sobre-nosotros .sobre-nosotros-texto {
-      text-align: left;
-      width: 50%; }
+      text-align: left; }
       .sobre-nosotros .sobre-nosotros-texto p {
         font-size: 1.1rem; }
       .sobre-nosotros .sobre-nosotros-texto .sobre-nosotros-video {
-        width: 50%; }
-        .sobre-nosotros .sobre-nosotros-texto .sobre-nosotros-video iframe {
-          width: 100%; }
+        grid-area: video;
+        padding: 10px; }
   h2 {
     color: #a37e70;
     font-family: "Spectral SC";
