@@ -1,5 +1,8 @@
 //Imports
 @import "variables";
+@import "maps";
+@import "extend";
+@import "mixin";
 @import "header";
 @import "nav";
 @import "footer";
@@ -43,19 +46,3 @@ body{
     "footer";
     margin: auto;
 }
-
-//Map
-$headings: (
-    h1:1.2rem,
-    h2: 1.1rem,
-    h3: 1rem,
-    h4:0.9rem
-);
-
-@each $heading, $size in $headings {
-    .heading-#{$heading} {
-        font-size: $size;
-    }
-}
-
-

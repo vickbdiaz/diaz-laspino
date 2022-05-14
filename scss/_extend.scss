@@ -1,0 +1,13 @@
+//Extend
+
+.links{
+    text-decoration: none;
+    color: $color-primary;
+    font-family: $font-p;
+    font-size: 0.9rem;
+}
+.links-foot{
+    @extend .links;
+        display: inline;
+        text-decoration: none;
+}
