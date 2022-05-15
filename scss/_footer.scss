@@ -5,7 +5,7 @@ footer{
     margin: 0;
     margin-top: 20px;
     color: $color-primary;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: $font-p;
     
     .foot-nav{
         padding: 10px;
@@ -13,7 +13,7 @@ footer{
         li{
         text-decoration: none;
         color: $color-primary;
-        font-family: 'Times New Roman', Times, serif;
+        font-family: $font-p;
         font-size: 0.9rem;
 
             a{

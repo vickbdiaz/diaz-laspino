@@ -1,13 +1,19 @@
 //Extend
-
-.links{
-    text-decoration: none;
-    color: $color-primary;
+.preguntas{
+    text-align: left;
+    font-size: 1.1rem;
     font-family: $font-p;
-    font-size: 0.9rem;
 }
-.links-foot{
-    @extend .links;
-        display: inline;
-        text-decoration: none;
+.pregunta-ayuda{
+    @extend .preguntas;
+    color: $color-primary;
+    background-color: $color-secondary;
+    font-weight: 800;
+    padding: auto;
+    margin: 10px;
+}
+.respuesta-ayuda{
+    color: $color-fonts;
+    font-weight: 500;
+    padding: 20px;
 }

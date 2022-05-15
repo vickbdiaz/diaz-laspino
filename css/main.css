@@ -16,15 +16,22 @@
   font-size: 0.9rem;
   font-family: "Spectral SC"; }
 
-.links, .links-foot {
-  text-decoration: none;
-  color: #f7f0f0;
-  font-family: "Times New Roman";
-  font-size: 0.9rem; }
+.preguntas, .pregunta-ayuda {
+  text-align: left;
+  font-size: 1.1rem;
+  font-family: "Times New Roman"; }
 
-.links-foot {
-  display: inline;
-  text-decoration: none; }
+.pregunta-ayuda {
+  color: #f7f0f0;
+  background-color: #cba4a4;
+  font-weight: 800;
+  padding: auto;
+  margin: 10px; }
+
+.respuesta-ayuda {
+  color: #a37e70;
+  font-weight: 500;
+  padding: 20px; }
 
 iframe {
   width: 100%;
@@ -73,13 +80,13 @@ footer {
   margin: 0;
   margin-top: 20px;
   color: #f7f0f0;
-  font-family: 'Times New Roman', Times, serif; }
+  font-family: "Times New Roman"; }
   footer .foot-nav {
     padding: 10px; }
     footer .foot-nav li {
       text-decoration: none;
       color: #f7f0f0;
-      font-family: 'Times New Roman', Times, serif;
+      font-family: "Times New Roman";
       font-size: 0.9rem; }
       footer .foot-nav li a {
         color: #f7f0f0;
@@ -366,23 +373,6 @@ h2 {
     .contenedor-contacto .contenedor-contactanos .contactanos-text iframe {
       width: 100%; }
 
-.preguntas {
-  text-align: left; }
-  .preguntas span {
-    font-size: 1rem;
-    font-family: 'Times New Roman', Times, serif;
-    color: #f7f0f0;
-    background-color: #cba4a4;
-    font-weight: 800;
-    padding: auto;
-    margin: 10px; }
-  .preguntas p {
-    font-size: 1rem;
-    font-family: 'Times New Roman', Times, serif;
-    color: #a37e70;
-    font-weight: 500;
-    padding: 20px; }
-
 .cards-ayuda .card {
   align-items: center; }
   .cards-ayuda .card .card-text {
@@ -439,7 +429,7 @@ h2 {
     background-color: #e5c2c1;
     font-size: 0.8rem; }
   footer {
-    font-size: 0.9rem; }
+    font-size: 1rem; }
     footer .icons-footer img {
       width: 50px; }
   .sobre-nosotros {
@@ -539,7 +529,7 @@ h2 {
     background-color: #e5c2c1;
     font-size: 1.1rem; }
   footer {
-    font-size: 1rem; }
+    font-size: 1.1rem; }
   .contenedor-footer {
     display: flex;
     justify-content: space-around; }
