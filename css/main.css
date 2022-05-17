@@ -2,23 +2,27 @@
 /*Fuentes*/
 .heading-h1 {
   font-size: 1.2rem;
-  font-family: "Spectral SC"; }
+  font-family: "Spectral SC";
+  padding: 20px; }
 
 .heading-h2 {
   font-size: 1.1rem;
-  font-family: "Spectral SC"; }
+  font-family: "Spectral SC";
+  padding: 20px; }
 
 .heading-h3 {
   font-size: 1rem;
-  font-family: "Spectral SC"; }
+  font-family: "Spectral SC";
+  padding: 20px; }
 
 .heading-h4 {
   font-size: 0.9rem;
-  font-family: "Spectral SC"; }
+  font-family: "Spectral SC";
+  padding: 20px; }
 
-.preguntas, .pregunta-ayuda {
+.preguntas, .pregunta-ayuda, .respuesta-ayuda {
   text-align: left;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-family: "Times New Roman"; }
 
 .pregunta-ayuda {
@@ -128,7 +132,7 @@ main {
   text-align: center; }
 
 .banner {
-  background-image: url(../imagenes/head.jpg);
+  background-image: url(https://ibb.co/KwjrdHn);
   width: 100%;
   height: 300px;
   background-position: center;
@@ -196,7 +200,7 @@ main {
   .sobre-laspino .sobre-laspino-uno {
     padding-bottom: 10px; }
 
-.main-title {
+.heading-h1 {
   color: #a37e70;
   font-family: "Spectral SC";
   font-weight: 800;
@@ -392,7 +396,6 @@ h2 {
     text-align: center; }
 
 @media screen and (min-width: 768px) {
-  /* Media queries index */
   .logo img {
     width: 400px; }
   .main-title {
@@ -471,7 +474,7 @@ h2 {
       .eleginos .eleginos-razon-dos p {
         padding: 10px;
         font-size: 1rem; }
-  h3 {
+  .heading-h3 {
     padding: 10px;
     margin: 10px 0;
     background-color: #e5c2c1;
@@ -548,7 +551,7 @@ h2 {
       .sobre-nosotros .sobre-nosotros-texto .sobre-nosotros-video {
         grid-area: video;
         padding: 10px; }
-  h2 {
+  .heading-h2 {
     color: #a37e70;
     font-family: "Spectral SC";
     font-weight: 800;
@@ -602,6 +605,9 @@ h2 {
   font-weight: 700;
   padding: 20px;
   padding-top: 10px; }
+
+.preguntas, .pregunta-ayuda, .respuesta-ayuda {
+  font-size: 1.1rem; }
 
 @media screen and (min-width: 1440px) {
   .main-wrapper {

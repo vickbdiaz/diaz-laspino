@@ -10,5 +10,7 @@ $headings: (
     .heading-#{$heading} {
         font-size: $size;
         font-family: $font-title;
+        padding: 20px;
     }
 }
+

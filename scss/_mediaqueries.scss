@@ -1,7 +1,7 @@
 //Media query 768
 @media screen and (min-width:768px){
 
-    /* Media queries index */
+    // Media queries index
 
     .logo{
 
@@ -126,7 +126,7 @@
         }
 
 //Media queries Productos 
-    h3{
+.heading-h3 {
         padding: 10px ;
         margin: 10px 0;
         background-color: $color-tertiary;
@@ -252,7 +252,7 @@
         }
     }
     
-    h2{
+    .heading-h2 {
         color: $color-fonts;
         font-family: $font-title;
         font-weight:800 ;
@@ -327,6 +327,11 @@
         padding: 20px;
         padding-top: 10px;
     }
+}
+
+//Media queries Ayuda
+.preguntas{
+    font-size: 1.1rem;
 }
 
 @media screen and (min-width:1440px){

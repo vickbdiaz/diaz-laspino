@@ -1,7 +1,7 @@
 //Extend
 .preguntas{
     text-align: left;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-family: $font-p;
 }
 .pregunta-ayuda{
@@ -13,6 +13,7 @@
     margin: 10px;
 }
 .respuesta-ayuda{
+    @extend .preguntas;
     color: $color-fonts;
     font-weight: 500;
     padding: 20px;
