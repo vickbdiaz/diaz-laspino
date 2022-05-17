@@ -1,4 +1,4 @@
-# diaz-laspino-
+# diaz-laspino
 Entrega de desafío "Desafío SASS II y SEO"
 
 //_maps.scss
