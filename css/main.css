@@ -2,23 +2,23 @@
 /*Fuentes*/
 .heading-h1 {
   font-size: 1.2rem;
-  font-family: "Spectral SC";
-  padding: 20px; }
+  font-family: "Spectral SC"; }
 
 .heading-h2 {
   font-size: 1.1rem;
-  font-family: "Spectral SC";
-  padding: 20px; }
+  font-family: "Spectral SC"; }
 
 .heading-h3 {
   font-size: 1rem;
-  font-family: "Spectral SC";
-  padding: 20px; }
+  font-family: "Spectral SC"; }
 
 .heading-h4 {
   font-size: 0.9rem;
-  font-family: "Spectral SC";
-  padding: 20px; }
+  font-family: "Spectral SC"; }
+
+.heading-h5 {
+  font-size: 1rem;
+  font-family: "Spectral SC"; }
 
 .preguntas, .pregunta-ayuda, .respuesta-ayuda {
   text-align: left;
@@ -132,7 +132,7 @@ main {
   text-align: center; }
 
 .banner {
-  background-image: url(https://ibb.co/KwjrdHn);
+  background-image: url(../imagenes/head.jpg);
   width: 100%;
   height: 300px;
   background-position: center;
@@ -208,32 +208,20 @@ main {
   padding: 20px;
   text-align: center; }
 
-.container-productos {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  padding: 10px; }
-  .container-productos img {
-    width: 100%; }
-  .container-productos .productos-uno {
-    display: flex;
-    flex-direction: column; }
-  .container-productos .container-productos-text {
-    padding: 15px; }
-    .container-productos .container-productos-text a {
-      color: #a37e70;
-      font-family: "Spectral SC";
-      font-weight: 500;
-      font-size: 1rem;
-      padding: 10px;
-      text-align: center;
-      text-decoration: none;
-      position: relative;
-      transition: all 300ms ease-in-out; }
-      .container-productos .container-productos-text a:hover {
-        color: #f7f0f0;
-        background-color: #cba4a4;
-        opacity: 0.8; }
+.card-color {
+  background-color: #dfc9c8; }
+
+.heading-h5 {
+  font-size: 1rem;
+  font-family: "Spectral SC";
+  color: #f7f0f0;
+  font-weight: 800; }
+
+.card {
+  cursor: pointer; }
+  .card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 10px 12px #a37e70; }
 
 .suscripcion {
   text-align: center;
@@ -530,7 +518,6 @@ main {
     text-align: center;
     width: 100%;
     height: 400px;
-    background-image: url(../imagenes/head.jpg);
     background-size: 150%;
     animation: mov 15s infinite linear alternate;
     background-repeat: no-repeat; }
@@ -654,12 +641,17 @@ main {
     .main-wrapper .logo img {
       width: 90%; }
     .main-wrapper .sobre-laspino {
-      font-size: 1.2rem; }
+      font-size: 1.1rem;
+      margin-bottom: 30px; }
       .main-wrapper .sobre-laspino .sobre-laspino-uno {
         padding-bottom: 15px; }
     .main-wrapper .heading-h1 {
       font-size: 1.5rem;
       font-family: "Spectral SC"; }
+    .main-wrapper .heading-h2 {
+      font-size: 1.3rem; }
+    .main-wrapper .heading-h5 {
+      font-size: 1.2rem; }
     .main-wrapper .container-productos {
       display: flex;
       justify-content: center; }

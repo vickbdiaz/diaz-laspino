@@ -5,7 +5,7 @@ main{
 }
 .banner{
 
-    background-image: url(https://ibb.co/KwjrdHn);
+    background-image: url(../imagenes/head.jpg);
     width: 100%;
     height: 300px;
     background-position: center;
@@ -106,42 +106,24 @@ main{
     text-align: center;
 }
 
-.container-productos{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    padding: 10px;
-        img{
-            width:  100%;
-        }
-        .productos-uno{
-            display: flex;
-            flex-direction: column;
-        }
-        .container-productos-text{
-            padding: 15px;
-
-                a{
-                    color: $color-fonts;
-                    font-family: $font-title;
-                    font-weight:500 ;
-                    font-size: 1rem;
-                    padding: 10px;
-                    text-align: center;
-                    text-decoration: none;
-                    position: relative;
-                    transition: all 300ms ease-in-out;
-                    
-                &:hover {
-                    color: $color-primary;
-                    background-color: $color-secondary;
-                    opacity: 0.8;
-                }
-            }
-        }
-    
+.card-color{
+    background-color: #dfc9c8;
 }
 
+.heading-h5{
+    font-size: 1rem;
+    font-family: $font-title;
+    color: $color-primary;
+    font-weight: 800;
+}
+
+.card{
+    cursor: pointer;
+    &:hover{
+        transform: translateY(-15px);
+        box-shadow: 0 10px 12px $color-fonts;
+    }
+}
 //Estilos seccion 3
 
 .suscripcion{
