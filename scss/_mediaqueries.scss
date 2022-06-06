@@ -1,3 +1,9 @@
+//Media query 320 - Nosotros
+
+.carrousel-img{
+    display: none;
+}
+
 //Media query 768
 @media screen and (min-width:768px){
 
@@ -129,6 +135,7 @@
                 }
         }
 }
+
 @media screen and (min-width:1024px){
     //Media queries index
     .logo {
@@ -336,19 +343,32 @@ figure{
     
 
 //Media queries Contacto 
-.container{
+
     .main-contacto{
-        label{
-        font-size: 1.2rem;
-        font-family:$font-p;
-        color: $color-fonts;
-        font-weight: 700;
-        padding: 20px;
-        padding-top: 10px;
+            label{
+                font-size: 1.1rem;
+                font-family:$font-p;
+                color: $color-primary;
+                font-weight: 700;
+                padding: 5px;
+                
+            }
+            input{
+                width: 300px;
+                font-size: 1rem;
+            }
+            .form-check{
+                    .form-check-input{
+                    width: 25px;
+                    height: 25px;
+                    }
+                }
+            .contenedor-contactanos{
+                .contactanos-text{
+                    font-size: 1.1rem;
+                }
+            }
     }
-    }   
-}
-    
 
 
 //Media queries Ayuda
@@ -412,7 +432,7 @@ figure{
     }
     
     footer {
-            font-size: 1.2rem;
+            font-size: 1.1rem;
         }
     .lista-info li{
         font-size: 1.2rem;

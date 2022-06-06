@@ -31,13 +31,21 @@
         .form-check-input{
             float: none;
             width: 20px;
+            height: 20px;
+            &:checked{
+                background-color: $color-secondary;
+                border-color: $color-secondary;
+            }
         }
+    }
+    .btn-light{
+        color: $color-fonts;
     }
     .contenedor-contactanos{
         .contactanos-text{
             background-color: $color-secondary;
                 p{
-                    font-size: 0.9rem;
+                    font-size: 1rem;
                     font-family: $font-p;
                     color:$color-primary;
 
@@ -49,5 +57,4 @@
         }
     }
 }
-
 
