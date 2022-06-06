@@ -1,6 +1,5 @@
 //Estilos seccion 1
 
-
 .sobre-nosotros{
     display: grid;
     grid-template-rows: 1fr;
@@ -25,8 +24,8 @@
     .sobre-nosotros-video{
         grid-area: video;
         iframe{
-        width: 100%;
-    }
+            width: 100%;
+        }
     }
 }
 
@@ -38,7 +37,8 @@
     padding: 10px;
     text-align: center;
 }
-//Estilos seccion 2
+
+//Estilos Seccion 2
 
 .eleginos{
     display: flex;
@@ -61,6 +61,7 @@
                 font-size: 0.8rem;
             }
     }
+    
     .eleginos-razon-dos{
         display: flex;
         flex-direction: column;

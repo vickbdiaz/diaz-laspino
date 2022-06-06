@@ -1,10 +1,8 @@
 
 //Estilos seccion 2
 .cards-ayuda{
-
     .card{
         align-items: center;
-
         .card-text{
             font-family: $font-p;
             font-weight: 300;
@@ -15,7 +13,6 @@
     .card-group{
         margin: 30px 10px;
         text-align: center;
-
         div{
             text-align: center;
             border: none;
@@ -25,5 +22,4 @@
             text-align: center;
         }
     }
-
 }

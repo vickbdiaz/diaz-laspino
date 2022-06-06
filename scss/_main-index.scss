@@ -4,7 +4,6 @@ main{
     text-align: center;
 }
 .banner{
-
     background-image: url(../imagenes/head.jpg);
     width: 100%;
     height: 300px;
@@ -18,7 +17,7 @@ main{
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-    
+
     @keyframes mov {
         0%{
             background-position: bottom left;
@@ -27,21 +26,20 @@ main{
             background-position: top right;
         }
     }
+    .button{
+        text-align: left;
+    }
 
-        .button{
-            text-align: left;
-        }
-
-        .capa-gradient{
-            width: 100%;
-            height: 100%;
-            position: absolute;
-            background: $color-primary;
-            background: -moz-linear-gradient(68deg, $color-primary 0%, $color-tertiary 55%, $color-secondary 84%, $color-fonts 100%);
-            background: -webkit-linear-gradient(68deg, $color-primary 0%, $color-tertiary 55%, $color-secondary 84%, $color-fonts 100%);
-            background: linear-gradient(68deg, $color-primary 0%, $color-tertiary 55%, $color-secondary 84%, $color-fonts 100%);
-            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f9f2f2",endColorstr="$color-fonts",GradientType=1);
-            opacity: 0.6;
+    .capa-gradient{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: $color-primary;
+        background: -moz-linear-gradient(68deg, $color-primary 0%, $color-tertiary 55%, $color-secondary 84%, $color-fonts 100%);
+        background: -webkit-linear-gradient(68deg, $color-primary 0%, $color-tertiary 55%, $color-secondary 84%, $color-fonts 100%);
+        background: linear-gradient(68deg, $color-primary 0%, $color-tertiary 55%, $color-secondary 84%, $color-fonts 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f9f2f2",endColorstr="$color-fonts",GradientType=1);
+        opacity: 0.6;
         }
         .banner-details{
             width: 100%;
@@ -69,6 +67,7 @@ main{
                             font-size: 1.1rem;
                             padding-bottom: 5px;
                         }
+
                         .btn{
                             color: $color-fonts;
                             border: $color-fonts;
@@ -77,7 +76,7 @@ main{
         }
 }
 
-//Estilos seccion 1
+//Estilos Seccion 1
 
 .sobre-laspino{
     background-color: #dfc9c8;
@@ -95,7 +94,7 @@ main{
 
 }
 
-//Estilos seccion 2
+//Estilos Seccion 2
 
 .heading-h1{
     color: $color-fonts;
@@ -124,7 +123,8 @@ main{
         box-shadow: 0 10px 12px $color-fonts;
     }
 }
-//Estilos seccion 3
+
+//Estilos Seccion 3
 
 .suscripcion{
     text-align: center;

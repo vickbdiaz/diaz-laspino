@@ -1,10 +1,10 @@
-//Media query 320 - Nosotros
-
+//Media query 320px - Nosotros
 .carrousel-img{
     display: none;
 }
 
-//Media query 768
+//Media query 768px
+
 @media screen and (min-width:768px){
 
     // Media queries index
@@ -51,7 +51,7 @@
             .productos-dos{
                 text-align: center;
             }
-    }
+        }
 
     .suscripcion{
 
@@ -68,7 +68,6 @@
             background-color: $color-tertiary;
             font-size: 0.8rem;
             }
-    }
 
         footer{
             font-size: 1rem;
@@ -80,17 +79,17 @@
                 }
             }
         }
-        
+
 //Media queries nosotros
 
-        .sobre-nosotros{
-            display: grid;
-            grid-template-rows: 1fr;
-            grid-template-areas: 
-            "texto"
-            "video";
-            padding-bottom: 10px;
-                p{
+    .sobre-nosotros{
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "texto"
+        "video";
+        padding-bottom: 10px;
+            p{
                 font-size: 0.9rem;
                 padding: 10px;
             }
@@ -134,9 +133,11 @@
                         }
                 }
         }
+    }
 }
 
 @media screen and (min-width:1024px){
+
     //Media queries index
     .logo {
         img{
@@ -209,8 +210,6 @@
             
         }
 
-
-
         .contenedor-footer{
             display: flex;
             justify-content: space-around;
@@ -219,9 +218,8 @@
                     font-size: 1.1rem;
                     p{
                     font-size: 1.1rem;
-                }
-                }
-                
+                    }
+                }                
             }
             
         }
@@ -272,6 +270,7 @@
         padding: 20px;
         text-align: center;
     }
+
     .eleginos{
         display: flex;
         flex-direction: row;
@@ -284,8 +283,6 @@
             justify-content: center;
             align-items: center;
             width: 50%;
-
-                .eleginos-razon-uno{
                     p{
                         padding: 10px;
                         text-align: start;
@@ -314,7 +311,6 @@
                     font-size: 1rem;
                 }
         }
-    }
 
     .suscripcion {
         p{
@@ -341,10 +337,10 @@ figure{
     }
 }
     
-
 //Media queries Contacto 
 
     .main-contacto{
+
             label{
                 font-size: 1.1rem;
                 font-family:$font-p;
@@ -374,10 +370,13 @@ figure{
 //Media queries Ayuda
 .preguntas{
     font-size: 1.1rem;
-}
+    }
 }
 
+//Media query 1440px 
+
 @media screen and (min-width:1440px){
+
     .main-wrapper{
         display: flex;
         flex-direction: column;
